@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "files.exclude": {
+    "node_modules": true
+  },
+  "editor.formatOnSave": false
+}

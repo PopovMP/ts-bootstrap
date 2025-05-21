@@ -1,0 +1,25 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "Experimental TypeScript support in esbuild",
+  "author": "PopovMP",
+  "license": "ISC",
+  "main": "./dist/out.js",
+  "type": "module",
+  "scripts": {
+    "check": "tsc -p ./tsconfig.json",
+    "lint": "eslint --ext .ts ./src/**/*.ts",
+    "test": "node --experimental-strip-types --experimental-transform-types --test",
+    "bundle": "esbuild ./src/app.ts --outfile=./dist/out.js --bundle --sourcemap",
+    "dts": "dts-bundle-generator --out-file ./dist/out.d.ts --no-banner --project ./tsconfig.json ./src/app.ts",
+    "start": "node --experimental-strip-types --experimental-transform-types --enable-source-maps ./src/app.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "dts-bundle-generator": "^9.5.1",
+    "esbuild": "^0.25.4",
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  }
+}
