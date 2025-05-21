@@ -1,12 +1,13 @@
 {
-  "name": "esbuild",
-  "version": "1.0.0",
+  "name": "ts-bootstrap",
+  "version": "0.1.0",
   "description": "TypeScript project bootstrap with esbuild, eslint and dts-bundle-generator",
   "author": "PopovMP",
   "license": "ISC",
   "type": "module",
   "main": "./dist/out.js",
   "types": "./dist/out.d.ts",
+  "git": "git@github.com:PopovMP/ts-bootstrap.git",
   "engines": {
     "node": ">=24"
   },
