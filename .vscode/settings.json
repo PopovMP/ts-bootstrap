@@ -2,6 +2,8 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": true,
+  "editor.fontFamily": "'Cascadia Code', 'Consolas', monospace",
+  "editor.fontSize": 16,
   "files.exclude": {
     "node_modules": true
   },
